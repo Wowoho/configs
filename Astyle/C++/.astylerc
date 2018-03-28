@@ -1,4 +1,8 @@
 --style=ansi
 --pad-oper
---pad-paren
-
+--unpad-paren
+-s4 
+-S  
+-K
+-F  
+-X
