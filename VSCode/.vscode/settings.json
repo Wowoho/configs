@@ -1,0 +1,76 @@
+{
+    "markdown.preview.fontSize": 22,
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 16,
+    "editor.fontWeight": "600",
+    "editor.formatOnType": true,
+    "terminal.integrated.fontWeightBold": "normal",
+    "editor.fontFamily": "'Fira Code','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "[cpp]": {
+        "editor.autoIndent": true
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "astyle.executable": "astyle",
+    "astyle.astylerc": ".astylerc",
+    "window.zoomLevel": 1,
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+            "Gold",
+            //"Orchid",
+            //"Pink",
+            //"Blue",
+            //"LightSkyBlue"
+        ],
+        "Red"
+    ],
+    "workbench.colorTheme": "One Dark Pro Vivid",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "matlab.mlintpath": "/home/liang/MATLAB/R2017a/bin/glnxa64/mlint",
+    "files.associations": {
+        "*.m": "matlab"
+    },
+    "matlab.matlabpath": "/home/liang/MATLAB/R2017a/bin/matlab",
+    "matlab-formatter.path": "/home/liang/.vscode/extensions/AffenWiesel.matlab-formatter-1.1.2/formatter/matlab_formatter.py",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "xelatex",
+            "tools": [
+                "xelatex"
+            ]
+        },
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }
+    ],
+}
